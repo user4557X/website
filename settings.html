@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="website Icon" type="PNG" href="IMG_5501.PNG">
+  <title>Settings - Subrat kc</title>
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="settings">
+    <h2>Settings</h2>
+
+    <div class="setting-section">
+      <h3>Change Email</h3>
+      <form>
+        <label for="new-email">New Email:</label>
+        <input type="email" id="new-email" name="new-email" required>
+
+        <label for="confirm-email">Confirm Email:</label>
+        <input type="email" id="confirm-email" name="confirm-email" required>
+
+        <button type="submit">Save</button>
+      </form>
+    </div>
+
+    <div class="setting-section">
+      <h3>Account Information</h3>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <button type="submit">Save</button>
+      </form>
+    </div>
+
+    <div class="setting-section">
+      <h3>General</h3>
+      <form>
+        <label for="timezone">Timezone:</label>
+        <select id="timezone" name="timezone">
+          <option value="est">EST</option>
+          <option value="pst">NPT</option>
+          <option value="utc">ITC</option>
+        </select>
+
+        <label for="language">Language:</label>
+        <select id="language" name="language">
+          <option value="en">English</option>
+          <option value="fr">Nepali</option>
+          <option value="es">Indian</option>
+        </select>
+
+        <button type="submit">Save</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Subrat kc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
